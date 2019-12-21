@@ -62,11 +62,11 @@ namespace RosSharp.RosBridgeClient
             SubscribedTransform.Translate(linearVelocity * deltaTime);
             // SubscribedTransform.Rotate(Vector3.forward, angularVelocity.x * deltaTime*180/3.14f);
             // SubscribedTransform.Rotate(Vector3.up, angularVelocity.y * deltaTime*180/3.14f);
-            // SubscribedTransform.Rotate(0, angularVelocity.y * deltaTime*180/3.14f, 0);
+            SubscribedTransform.Rotate(0, angularVelocity.y * deltaTime*180/3.14f, 0);
 
-            Debug.Log(angularVelocity.y);
+            // Debug.Log(angularVelocity.y);
 
-            previousRealTime = Time.realtimeSinceStartup;
+            // previousRealTime = Time.realtimeSinceStartup;
 
             isMessageReceived = false;
         }
