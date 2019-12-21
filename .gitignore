@@ -12,6 +12,7 @@ sysinfo.txt
 /Assets/AssetStoreTools*
 *.apk
 *.unitypackage
+/Assets/Urdf/*/meshes/*
 
 
 # ===================================== #
