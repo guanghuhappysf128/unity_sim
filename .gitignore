@@ -13,6 +13,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 /Assets/Urdf/*/meshes/*
+/Assets/RosSharp
 
 
 # ===================================== #
